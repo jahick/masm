@@ -1,0 +1,13 @@
+﻿  Assembling Main.asm...
+Main.asm(3): error A2008: syntax error : .
+Main.asm(4): error A2008: syntax error : .
+Main.asm(5): error A2008: syntax error : .
+Main.asm(7): error A2008: syntax error : ,
+Main.asm(28): error A2008: syntax error : EQU
+Main.asm(40): error A2008: syntax error : ExitProcess
+Main.asm(44): error A2008: syntax error : main
+Main.asm(44): error A2088: END directive required at end of file
+Main.asm(38): error A2006: undefined symbol : dumpRegs
+Main.asm(36): error A2084: constant value too large
+Main.asm(36): error A2206: missing operator in expression
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml64.exe /c /nologo /Zi /Fo"x64\Debug\Main.obj" /W3 /errorReport:prompt  /TaMain.asm" exited with code 1.
